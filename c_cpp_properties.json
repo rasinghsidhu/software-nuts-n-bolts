@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                    "${workspaceRoot}",
+                    "c:/mingw/lib/gcc/mingw32/5.3.0/include/c++",
+                    "c:/mingw/lib/gcc/mingw32/5.3.0/include/c++/mingw32",
+                    "c:/mingw/lib/gcc/mingw32/5.3.0/include/c++/backward",
+                    "c:/mingw/include",
+                    "c:/mingw/lib/gcc/mingw32/5.3.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "browse":{
+                "path": [
+                    "c:/mingw/lib/gcc/mingw32/5.3.0/include/c++",
+                    "c:/mingw/lib/gcc/mingw32/5.3.0/include/c++/mingw32",
+                    "c:/mingw/lib/gcc/mingw32/5.3.0/include/c++/backward",
+                    "c:/mingw/include",
+                    "c:/mingw/lib/gcc/mingw32/5.3.0/include-fixed"
+                    ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ]
+}
